@@ -36,7 +36,7 @@ for f in shp/*.shp
 
     #Rasterize the line file
     echo "Rasterize line"
-    gdal_rasterize -ot Byte -ts 400 400 -a val -l $linefile shp/line/$linefile.shp  final/temp/$finalfile.tif
+    gdal_rasterize -ot Byte -tr 1.5 1.5 -a val -l $linefile shp/line/$linefile.shp  final/temp/$finalfile.tif
 
     #Reverse the colors to get simple black and white
     echo "Reverse colors on image"

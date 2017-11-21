@@ -1,12 +1,18 @@
 gif/*.gif
+gif/*.xml
 
 out_tif/*.tif
+out_tif/*.xml
 
 png/*.png
+png/*.xml
 
 bw/raw/*.png
 bw/raw/*.gif
+bw/raw/*.xml
+
 bw/*.tif
+bw/*.xml
 
 shp/*.dbf
 shp/*.shx
@@ -19,4 +25,7 @@ shp/line/*.shp
 shp/line/*.prj
 
 final/*.tif
+final/*.xml
+
 final/temp/*.tif
+final/temp/*.xml
