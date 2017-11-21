@@ -1,4 +1,4 @@
-!/bin/sh
+#!/bin/sh
 for f in gif/*.gif
    do
      echo "Processing $f"

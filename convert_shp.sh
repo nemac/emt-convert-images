@@ -1,4 +1,4 @@
-!/bin/sh
+#!/bin/sh
 for f in out_tif/*.tif
    do
      echo
